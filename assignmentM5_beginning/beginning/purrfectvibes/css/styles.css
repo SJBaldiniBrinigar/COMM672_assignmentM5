@@ -1,0 +1,170 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;   
+
+}
+
+h1 {
+    font-size:larger;
+    font-weight: bold;
+    margin: 30px 0;
+    width: 50%;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size:medium;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+a {
+    color: #b3679b;
+}
+
+#logo {
+    width: 250px;
+    float: left;
+    margin: 0 60px;
+}
+
+nav li {
+    float: left;
+    margin: 20px;
+    
+}
+
+nav a {
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #e6a563;
+}
+
+#home {
+    margin-left: 250px;
+}
+
+header {
+    position: sticky;
+    height: 110px;
+    z-index: 1;
+}
+
+.space {
+    clear: both;
+}
+
+.hero {
+    background-color: #ffcf83;
+    width: 100%;
+    height: 350px;
+    padding-left: 60px;    
+}
+
+#bigcat {
+    float: right;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    margin-top: -140px
+}
+
+.button {
+    background-color: #222e50;
+    border-radius: 10px;
+    padding: 8px 15px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: small;     
+}
+
+.button:hover {
+    border: 1px solid #222e50;
+    color: #222e50;
+    background-color: #ffcf83;
+}
+
+#vibe {
+    width: 50%;
+}
+
+.features {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.feature-block {
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.testimonials {
+padding-left: 50px;
+}
+
+.testimonials {
+    background-color: #222e50;
+}
+
+.testimonial-block {
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    padding:10px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+#testtitle {
+    color: white;
+}
+
+.team-block {
+    width: 211px;
+    display: inline-block;    
+    text-align: center;
+    margin: 7px;
+}
+
+.job {
+    display: none;
+}
+
+.footer {
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 40px 0 50px 0;    
+    width: 100%;
+}
+
+footer img {
+    width: 35px;
+}
+
+#smedia {
+    margin-bottom: 20px;
+}
